@@ -2,7 +2,7 @@
 Teamwork. READ the article-Seasonality in the Cross-Section of Stock Returns-and then realize it
 DEADLINE 2018.6.30
  
- 
+ #update 2018.6.12 figure 2 and figure 3 are the same,so we use the same program
  
  
   
@@ -280,16 +280,319 @@ Tinic, Seha, and R. R. West, 1984, Risk and return: January vs. the rest of the 
 
 Univariate and Multivariate Cross-Sectional Regressions of Returns
 Monthly univariate cross-sectional regressions of the form ri,t = αk,t + γk,tri,t-k + ui,t are calculated for each month t and lag k, and where ri,t is the return of stock i in month t.  The lagged variable ri,t-k is return of stock i in month t–k.  The regression is calculated for every month t from January 1965 through December 2002 (456 months), and for lag k values 1 through 12, and each twelfth lag thereafter through 240.  The time-series averages of γk,t are reported in Panel A. Panel B calculates multivariate cross-sectional regressions, including all past lags in the same regression.  Three regression specifications are considered: including lags 1 through 12, 24, and 36; then adding each twelfth lag through 120; and finally adding each twelfth lag through 240.  Regression estimates are reported in percent.  The reported Fama and MacBeth (1973) t-statistics are corrected for heteroskedasticity and autocorrelation (using Newey and West (1987) correction with 12 lags).  The analysis uses NYSE/AMEX-listed stocks. 
-LagPanel A. Univariate regressions
-	Estimate	T-statPanel B. Multivariate regressionsEstimateT-stat	Estimate	T-statEstimateT-stat1-5.03-9.03-6.80-12.75-7.10-13.48-7.30-13.962-0.07-0.16-1.23-2.53-1.31-2.76-1.35-2.8931.363.960.831.910.841.980.831.9840.581.420.491.080.451.010.420.9750.962.421.032.311.092.521.142.7060.982.481.343.281.473.691.493.8871.063.181.082.641.172.961.153.0080.581.30-0.05-0.120.030.07-0.03-0.0691.313.101.242.771.282.971.273.01100.852.351.072.791.002.720.952.62111.393.661.193.141.113.011.103.04122.617.402.576.242.426.032.325.90241.303.471.945.131.885.131.805.02361.273.331.474.331.394.191.193.68481.293.201.113.421.103.46600.621.441.173.521.103.36721.082.981.243.741.143.58841.033.091.263.921.173.76960.932.190.752.230.672.081081.413.780.802.370.551.621201.344.110.932.760.772.351321.685.261.364.741441.193.550.721.791560.701.830.310.941680.781.910.812.451801.293.960.772.551921.433.070.702.182041.213.070.471.492161.142.620.341.112280.000.00-0.19-0.632401.142.990.421.47Returns of Strategies Based on Past Performance
+Lag
+Panel A. Univariate regressions
+	Estimate	T-stat
+
+
+Panel B. Multivariate regressions
+
+
+
+
+Estimate
+T-stat
+	Estimate	T-stat
+Estimate
+T-stat
+1
+-5.03
+-9.03
+-6.80
+-12.75
+-7.10
+-13.48
+-7.30
+-13.96
+2
+-0.07
+-0.16
+-1.23
+-2.53
+-1.31
+-2.76
+-1.35
+-2.89
+3
+1.36
+3.96
+0.83
+1.91
+0.84
+1.98
+0.83
+1.98
+4
+0.58
+1.42
+0.49
+1.08
+0.45
+1.01
+0.42
+0.97
+5
+0.96
+2.42
+1.03
+2.31
+1.09
+2.52
+1.14
+2.70
+6
+0.98
+2.48
+1.34
+3.28
+1.47
+3.69
+1.49
+3.88
+7
+1.06
+3.18
+1.08
+2.64
+1.17
+2.96
+1.15
+3.00
+8
+0.58
+1.30
+-0.05
+-0.12
+0.03
+0.07
+-0.03
+-0.06
+9
+1.31
+3.10
+1.24
+2.77
+1.28
+2.97
+1.27
+3.01
+10
+0.85
+2.35
+1.07
+2.79
+1.00
+2.72
+0.95
+2.62
+11
+1.39
+3.66
+1.19
+3.14
+1.11
+3.01
+1.10
+3.04
+12
+2.61
+7.40
+2.57
+6.24
+2.42
+6.03
+2.32
+5.90
+24
+1.30
+3.47
+1.94
+5.13
+1.88
+5.13
+1.80
+5.02
+36
+1.27
+3.33
+1.47
+4.33
+1.39
+4.19
+1.19
+3.68
+48
+1.29
+3.20
+
+
+1.11
+3.42
+1.10
+3.46
+60
+0.62
+1.44
+
+
+1.17
+3.52
+1.10
+3.36
+72
+1.08
+2.98
+
+
+1.24
+3.74
+1.14
+3.58
+84
+1.03
+3.09
+
+
+1.26
+3.92
+1.17
+3.76
+96
+0.93
+2.19
+
+
+0.75
+2.23
+0.67
+2.08
+108
+1.41
+3.78
+
+
+0.80
+2.37
+0.55
+1.62
+120
+1.34
+4.11
+
+
+0.93
+2.76
+0.77
+2.35
+132
+1.68
+5.26
+
+
+
+
+1.36
+4.74
+144
+1.19
+3.55
+
+
+
+
+0.72
+1.79
+156
+0.70
+1.83
+
+
+
+
+0.31
+0.94
+168
+0.78
+1.91
+
+
+
+
+0.81
+2.45
+180
+1.29
+3.96
+
+
+
+
+0.77
+2.55
+192
+1.43
+3.07
+
+
+
+
+0.70
+2.18
+204
+1.21
+3.07
+
+
+
+
+0.47
+1.49
+216
+1.14
+2.62
+
+
+
+
+0.34
+1.11
+228
+0.00
+0.00
+
+
+
+
+-0.19
+-0.63
+240
+1.14
+2.99
+
+
+
+
+0.42
+1.47
+Returns of Strategies Based on Past Performance
 Every month stocks are grouped into ten portfolios (with equal number of stocks in each portfolio) according to various categories based on past performance.  For example, the trading strategy that is formed based on past annual returns during years 2 through 5 ranks stocks according to their average returns during the historical lags 24, 36, 48, and 60.  The stocks in each portfolio are assigned equal weight, and the portfolios are rebalanced monthly.  The average monthly returns of the various trading strategies for the period January 1965 through December 2002 (456 months) are reported below, as well as the corresponding t-statistics (two digit numbers).  The analysis uses NYSE/AMEX-listed stocks. 
-Strategy1 (losers)2345678910 (winners)10-1Year 1
+Strategy
+1 (losers)
+2
+3
+4
+5
+6
+7
+8
+9
+10 (winners)
+10-1
+Year 1
 Years 2-5
 Years 6-10
 Years 11-15
-Years 16-20All
-Annual
-Non-Annual
+Years 16-20
 All
 Annual
 Non-Annual
@@ -301,7 +604,11 @@ Annual
 Non-Annual
 All
 Annual
-Non-Annual0.0064 1.65
+Non-Annual
+All
+Annual
+Non-Annual
+0.0064 1.65
 0.0082 2.53
 0.0080 1.99
 0.0191 5.28
@@ -316,7 +623,8 @@ Non-Annual0.0064 1.65
 0.0150 5.48
 0.0100 3.78
 0.0154
-5.570.0090 3.12
+5.57
+0.0090 3.12
 0.0097 3.66
 0.0105 3.59
 0.0145 5.25
@@ -331,7 +639,8 @@ Non-Annual0.0064 1.65
 0.0117 4.89
 0.0100 4.24
 0.0128
-5.380.0101 3.97
+5.38
+0.0101 3.97
 0.0106 4.36
 0.0111 4.23
 0.0135 5.50
@@ -346,7 +655,8 @@ Non-Annual0.0064 1.65
 0.0116 5.21
 0.0103 4.61
 0.0115
-5.160.0108 4.54
+5.16
+0.0108 4.54
 0.0111 4.77
 0.0109 4.53
 0.0127 5.59
@@ -361,7 +671,8 @@ Non-Annual0.0064 1.65
 0.0110 5.11
 0.0111 5.02
 0.0122
-5.600.0117 5.11
+5.60
+0.0117 5.11
 0.0121 5.20
 0.0119 5.23
 0.0129 5.68
@@ -376,7 +687,8 @@ Non-Annual0.0064 1.65
 0.0113 5.29
 0.0112 5.14
 0.0115
-5.370.0125 5.50
+5.37
+0.0125 5.50
 0.0127 5.56
 0.0120 5.26
 0.0126 5.39
@@ -391,7 +703,8 @@ Non-Annual0.0064 1.65
 0.0120 5.54
 0.0115 5.36
 0.0111
-5.170.0136 5.77
+5.17
+0.0136 5.77
 0.0138 5.78
 0.0128 5.48
 0.0128 5.25
@@ -406,7 +719,8 @@ Non-Annual0.0064 1.65
 0.0117 5.43
 0.0122 5.64
 0.0108
-4.950.0152 6.05
+4.95
+0.0152 6.05
 0.0148 5.82
 0.0144 5.88
 0.0116 4.50
@@ -421,7 +735,8 @@ Non-Annual0.0064 1.65
 0.0113 5.01
 0.0131 5.95
 0.0120
-5.370.0173 6.31
+5.37
+0.0173 6.31
 0.0160 5.77
 0.0165 6.08
 0.0112 3.99
@@ -436,7 +751,8 @@ Non-Annual0.0064 1.65
 0.0123 5.14
 0.0137 5.86
 0.0109
-4.610.0210 6.39
+4.61
+0.0210 6.39
 0.0197 5.80
 0.0197 6.13
 0.0084 2.57
@@ -451,7 +767,8 @@ Non-Annual0.0064 1.65
 0.0119 4.65
 0.0153 5.84
 0.0115
-4.490.0146 5.58
+4.49
+0.0146 5.58
 0.0115 7.60
 0.0117
 4.20
@@ -475,44 +792,69 @@ Non-Annual0.0064 1.65
 0.0052
 4.58
 -0.0039
--3.35Weighted Relative-Strength Strategy (WRSS) Profits and Cross-Sectional Dispersion in Mean Returns
+-3.35
+Weighted Relative-Strength Strategy (WRSS) Profits and Cross-Sectional Dispersion in Mean Returns
 For every pair of month t and its lag month k we calculate the return of each stock in each month excess of the equally weighed market return that month (using the cross-section of stocks with available returns in both months j and k).  For each stock, the product of is excess returns during months t and k is calculated.  The sum of these products across firms is denoted πk(t) and it represents a return of a zero cost portfolio strategy.  Three groups of returns are then defined: “All” includes all πk(t) such that k≠0; “Non-Annual” include all πk(t) such that k≠12i, for any integer i; and “Annual” includes all πk(t) such that k=12i, for any non-zero integer i.  The table reports the mean return of each group.  Standard errors are calculated by dividing the population standard deviation of each group by the square root of 500.  The analysis employs NYSE/AMEX-listed firms for the period January 1963 through December 2002. 
-AllNon-AnnualAnnualMean (%)-0.0006-0.00190.0133T-statistic-0.26-0.653.57
+
+All
+Non-Annual
+Annual
+Mean (%)
+-0.0006
+-0.0019
+0.0133
+T-statistic
+-0.26
+-0.65
+3.57
+
 
 Mean-Adjusted Returns of Strategies Based on Past Performance
-StrategyNo AdjustmentsStandard Mean Adjustments
-Pre-Ranking	Post-RankingAllSeasonal Mean Adjustments
-Pre-Ranking	Post-RankingAll1 year
+Strategy
+No Adjustments
+Standard Mean Adjustments
+Pre-Ranking	Post-Ranking
+All
+Seasonal Mean Adjustments
+Pre-Ranking	Post-Ranking
+All
+1 year
 2-5 years
 6-10 years
 11-15 years
-16-20 years0.0115 7.60
+16-20 years
+0.0115 7.60
 0.0067 5.36
 0.0069 6.22
 0.0065 6.37
 0.0051
-4.430.0112 7.06
+4.43
+0.0112 7.06
 0.0111 6.62
 0.0108 6.78
 0.0107 6.49
 0.0091
-5.590.0119 7.56
+5.59
+0.0119 7.56
 0.0082 6.54
 0.0081 7.36
 0.0075 7.36
 0.0058
-5.060.0121 7.88
+5.06
+0.0121 7.88
 0.0083 6.58
 0.0082 7.42
 0.0076 7.39
 0.0058
-5.090.0063 4.14
+5.09
+0.0063 4.14
 0.0038 2.28
 0.0018 1.10
 0.0008
 0.47
 -0.0013
--0.740.0040
+-0.74
+0.0040
 2.75
 -0.0014
 -1.09
@@ -520,28 +862,180 @@ Pre-Ranking	Post-RankingAll1 year
 0.0010
 0.94
 -0.0002
--0.210.0070 4.89
+-0.21
+0.0070 4.89
 0.0004 0.35
 0.0010 0.92
 0.0010
 0.95
 -0.0005
--0.43Every month stocks are grouped into ten portfolios (with equal number of stocks in each portfolio) according to past performance during various ranking periods.  For example, the trading strategy that is formed based on past annual returns during years 2 through 5 ranks stocks according to their average returns during the historical lags 24, 36, 48, and 60.  The stocks in each portfolio are assigned equal weight, and the portfolios are rebalanced monthly.  For each stock each month, the monthly return is adjusted by subtracting off the stock’s mean return.  Three different periods are separately used to calculate this mean return: pre-ranking, post-ranking, and all.  The pre-ranking period corresponds to the period starting at the beginning of the sample period until one month prior to the beginning of the ranking period.  The post-ranking period includes all months one month after the end of the ranking period until the end of the sample period (excluding the return month itself).  “All” includes all month during the pre- and post-ranking periods.  The standard mean return corresponds to the regular monthly return average over the period, while to only returns during the same calendar month as the return month are used to calculate the seasonal mean return over the period.  The table reports the average monthly adjusted returns of the long-short strategy (10 minus 1), as well as the corresponding t-statistics (two digit numbers).  The analysis uses NYSE/AMEX-listed stocks for the period January 1965 through December 2002. 
+-0.43
+Every month stocks are grouped into ten portfolios (with equal number of stocks in each portfolio) according to past performance during various ranking periods.  For example, the trading strategy that is formed based on past annual returns during years 2 through 5 ranks stocks according to their average returns during the historical lags 24, 36, 48, and 60.  The stocks in each portfolio are assigned equal weight, and the portfolios are rebalanced monthly.  For each stock each month, the monthly return is adjusted by subtracting off the stock’s mean return.  Three different periods are separately used to calculate this mean return: pre-ranking, post-ranking, and all.  The pre-ranking period corresponds to the period starting at the beginning of the sample period until one month prior to the beginning of the ranking period.  The post-ranking period includes all months one month after the end of the ranking period until the end of the sample period (excluding the return month itself).  “All” includes all month during the pre- and post-ranking periods.  The standard mean return corresponds to the regular monthly return average over the period, while to only returns during the same calendar month as the return month are used to calculate the seasonal mean return over the period.  The table reports the average monthly adjusted returns of the long-short strategy (10 minus 1), as well as the corresponding t-statistics (two digit numbers).  The analysis uses NYSE/AMEX-listed stocks for the period January 1965 through December 2002. 
 
 Table 5
 Relative Strength Portfolio Returns for Different Size Groups
 Every month stocks are grouped into ten portfolios (with equal number of stocks in each portfolio) according to various categories based on past performance.  For example, the trading strategy that is formed based on past annual returns during years 2 through 5 ranks stocks according to their average returns during the historical lags 24, 36, 48, and 60.  The stocks in each portfolio are assigned equal weight, and the portfolios are rebalanced monthly.  The average monthly return difference between the highest past-performing decile and the lowest pastperforming decile is then calculated for the period January 1965 through December 2002 (456 months).  The table below reports the results of this procedure, performed separately for three different size groups (measured by market capitalization).  Small firms are defined as the bottom 30 percent, large firms are the top 30 percent, and the remaining 40 percent are medium size firms.  The size categorization is re-evaluated in the beginning of every month.  The corresponding t-statistics are also reported (two digit numbers).  The analysis uses NYSE/AMEX-listed stocks. 
 	Strategy	Small	Medium	Large
-Year 1	All0.01290.01860.01024.047.533.97Annual0.00900.00950.00694.276.684.19Non-Annual0.01050.01730.00903.076.863.49Years 2-5All-0.0128-0.0061-0.0056-5.31-3.78-2.90Annual0.00410.00420.00692.323.545.01Non-Annual-0.0161-0.0071-0.0079-6.34-4.28-4.11Years 6-10All-0.0048-0.0025-0.0015-2.44-1.85-1.16Annual0.00370.00450.00671.823.575.90Non-Annual-0.0059-0.0035-0.0032-2.84-2.69-2.47Years 11-15All-0.00040.00050.0010-0.170.390.92Annual0.00810.00340.00353.172.673.34Non-Annual-0.0012-0.0006-0.0007-0.47-0.49-0.61Years 16-20All-0.0053-0.0006-0.0020-1.75-0.39-1.68Annual0.00020.00350.00240.062.342.17Non-Annual-0.0037-0.0013-0.0024-1.14-0.88-2.05Table 6
+Year 1	All
+0.0129
+0.0186
+0.0102
+
+
+4.04
+7.53
+3.97
+
+Annual
+0.0090
+0.0095
+0.0069
+
+
+4.27
+6.68
+4.19
+
+Non-Annual
+0.0105
+0.0173
+0.0090
+
+
+3.07
+6.86
+3.49
+Years 2-5
+All
+-0.0128
+-0.0061
+-0.0056
+
+
+-5.31
+-3.78
+-2.90
+
+Annual
+0.0041
+0.0042
+0.0069
+
+
+2.32
+3.54
+5.01
+
+Non-Annual
+-0.0161
+-0.0071
+-0.0079
+
+
+-6.34
+-4.28
+-4.11
+Years 6-10
+All
+-0.0048
+-0.0025
+-0.0015
+
+
+-2.44
+-1.85
+-1.16
+
+Annual
+0.0037
+0.0045
+0.0067
+
+
+1.82
+3.57
+5.90
+
+Non-Annual
+-0.0059
+-0.0035
+-0.0032
+
+
+-2.84
+-2.69
+-2.47
+Years 11-15
+All
+-0.0004
+0.0005
+0.0010
+
+
+-0.17
+0.39
+0.92
+
+Annual
+0.0081
+0.0034
+0.0035
+
+
+3.17
+2.67
+3.34
+
+Non-Annual
+-0.0012
+-0.0006
+-0.0007
+
+
+-0.47
+-0.49
+-0.61
+Years 16-20
+All
+-0.0053
+-0.0006
+-0.0020
+
+
+-1.75
+-0.39
+-1.68
+
+Annual
+0.0002
+0.0035
+0.0024
+
+
+0.06
+2.34
+2.17
+
+Non-Annual
+-0.0037
+-0.0013
+-0.0024
+
+
+-1.14
+-0.88
+-2.05
+Table 6
 Controlling for Industry Effects
 Every month stocks are grouped into ten portfolios (with equal number of stocks in each portfolio) according to various categories based on past performance.  For example, the trading strategy that is formed based on past annual returns during years 2 through 5 ranks stocks according to their average returns during the historical lags 24, 36, 48, and 60.  The stocks in each portfolio are assigned equal weight, and the portfolios are rebalanced monthly.  The monthly return of every stock is then decomposed into intra- and inter-industry components.  The intra-industry component is the monthly return of the stock excess of its industry group return, and the inter-industry component is the monthly return of the industry group itself.  The industry groups (twenty groups) are formed according to the classification in Moskowitz and Grinblatt (1999).  The average monthly returns of the various trading strategies (for both intra- and inter-industry components) for the period January 1965 through December 2002 (456 months) are reported below, as well as the corresponding t-statistics (two digit numbers).  The analysis uses NYSE/AMEX-listed stocks. 
-StrategyIntra-IndustryInter-IndustryYear 1
+Strategy
+Intra-Industry
+Inter-Industry
+Year 1
 Years 2-5
 Years 6-10
 Years 11-15
-Years 16-20All
-Annual
-Non-Annual
+Years 16-20
 All
 Annual
 Non-Annual
@@ -553,7 +1047,11 @@ Annual
 Non-Annual
 All
 Annual
-Non-Annual0.0124 5.50
+Non-Annual
+All
+Annual
+Non-Annual
+0.0124 5.50
 0.0103 8.20
 0.0097
 3.96
@@ -577,7 +1075,8 @@ Non-Annual0.0124 5.50
 0.0046
 4.68
 -0.0035
--3.570.0022 3.97
+-3.57
+0.0022 3.97
 0.0012 2.98
 0.0020
 3.71
@@ -599,18 +1098,30 @@ Non-Annual0.0124 5.50
 0.0006
 1.76
 -0.0003
--0.79
+-0.79
+
 Table 7
 Seasonal Returns of Zero-Investment Strategies Based on Past Performance
 Every month stocks are grouped into ten portfolios (with equal number of stocks in each portfolio) according to various categories based on past performance.  For example, the trading strategy that is formed based on past annual returns during years 2 through 5 ranks stocks according to their average returns during the historical lags 24, 36, 48, and 60.  The stocks in each portfolio are assigned equal weight, and the portfolios are rebalanced monthly.  The average monthly returns of the various trading strategies are reported separately for every calendar month during the period January 1965 through December 2002.  The corresponding t-statistics are also reported below (two digit numbers).  In a separate column, returns are computed using all non-January months.  The analysis uses NYSE/AMEX-listed stocks. 
-StrategyJanuaryFebruaryMarchAprilMayJuneJulyAugustSeptemberOctoberNovemberDecemberFeb-DecYear 1
+Strategy
+January
+February
+March
+April
+May
+June
+July
+August
+September
+October
+November
+December
+Feb-Dec
+Year 1
 Years 2-5
 Years 6-10
 Years 11-15
-Years 16-20All
-Annual
-Non-Annual
-Difference
+Years 16-20
 All
 Annual
 Non-Annual
@@ -626,7 +1137,12 @@ Difference
 All
 Annual
 Non-Annual
-Difference-0.0449
+Difference
+All
+Annual
+Non-Annual
+Difference
+-0.0449
 -2.92
 0.0333
 3.52
@@ -665,7 +1181,8 @@ Difference-0.0449
 -0.0209
 -3.62
 0.0506
-4.370.0101 1.06
+4.37
+0.0101 1.06
 0.0019 0.32
 0.0090
 0.96
@@ -697,7 +1214,8 @@ Difference-0.0449
 -0.0117
 -3.05
 0.0081
-2.320.0134 2.15
+2.32
+0.0134 2.15
 0.0093 2.17
 0.0091 1.53
 0.0002
@@ -729,7 +1247,8 @@ Difference-0.0449
 -0.0040
 -1.22
 0.0063
-1.400.0217 3.57
+1.40
+0.0217 3.57
 0.0099 3.17
 0.0244
 4.08
@@ -765,7 +1284,8 @@ Difference-0.0449
 -0.0080
 -2.20
 0.0124
-2.750.0082 1.19
+2.75
+0.0082 1.19
 0.0049 1.41
 0.0075
 1.09
@@ -797,7 +1317,8 @@ Difference-0.0449
 0.0033 0.97
 0.0028 0.83
 0.0005
-0.130.0307 4.97
+0.13
+0.0307 4.97
 0.0110 3.16
 0.0295
 4.84
@@ -827,7 +1348,8 @@ Difference-0.0449
 -0.0014
 -0.40
 0.0078
-1.940.0127 1.92
+1.94
+0.0127 1.92
 0.0006 0.14
 0.0138
 1.98
@@ -859,7 +1381,8 @@ Difference-0.0449
 -0.0046
 -1.40
 0.0069
-1.630.0126 2.10
+1.63
+0.0126 2.10
 0.0083 2.22
 0.0133
 2.10
@@ -889,7 +1412,8 @@ Difference-0.0449
 -0.0044
 -1.37
 0.0068
-1.270.0241 3.34
+1.27
+0.0241 3.34
 0.0130 3.27
 0.0224
 2.99
@@ -921,7 +1445,8 @@ Difference-0.0449
 0.0038 1.29
 0.0022 0.73
 0.0016
-0.400.0189 1.99
+0.40
+0.0189 1.99
 0.0097 1.80
 0.0189
 1.95
@@ -947,7 +1472,8 @@ Difference-0.0449
 -0.0023
 -0.52
 0.0108
-1.870.0256 2.60
+1.87
+0.0256 2.60
 0.0153 2.70
 0.0214
 2.23
@@ -972,7 +1498,8 @@ Difference-0.0449
 0.0059
 1.50
 -0.0034
--0.750.0419 5.07
+-0.75
+0.0419 5.07
 0.0209 3.84
 0.0397
 4.86
@@ -1004,7 +1531,8 @@ Difference-0.0449
 0.0009 0.35
 0.0003 0.08
 0.0006
-0.150.0200 8.62
+0.15
+0.0200 8.62
 0.0095 6.93
 0.0190
 8.18
@@ -1038,12 +1566,312 @@ Difference-0.0449
 -0.0023
 -2.07
 0.0053
-3.93Table 8
+3.93
+Table 8
 Controlling for Earnings, Dividends, and Fiscal-Year End
 Every month stocks are grouped into ten portfolios (with equal number of stocks in each portfolio) according to various categories based on past performance.  For example, the trading strategy that is formed based on past annual returns during years 2 through 5 ranks stocks according to their average returns during the historical lags 24, 36, 48, and 60.  The stocks in each portfolio are assigned equal weight, and the portfolios are rebalanced monthly.  The sample in each panel includes only NYSE/AMEX-listed firms whose respective events are recorded on COMPUSTAT.  The table reports the portfolio returns using (a) only returns during event months, and (b) only returns during non-event months.  The average monthly returns of the various trading strategies for the period January 1965 through December 2002 (456 months) are reported below, as well as the corresponding t-statistics (two digit numbers). 
 	Panel A. Earnings announcements	Panel B. Dividend announcements	Panel C. Ex-dividend months	Panel D. Fiscal-year-end months
 	Strategy	Event months	Non-event months	Event months	Non-event months	Event months	Non-event months	Event months	Non-event months
-Year 1	All0.02190.01220.01250.01370.00830.01520.00930.01436.154.204.914.623.255.142.204.61Annual0.01060.01270.00940.01220.00830.01250.00730.01454.257.136.027.174.937.222.247.49Non-Annual0.01910.00910.01070.01070.00640.01240.00800.01105.342.914.233.372.484.001.793.37Years 2-5All-0.0124-0.0097-0.0078-0.0085-0.0083-0.0081-0.0021-0.0133-4.27-3.84-4.08-3.26-4.43-3.15-0.56-4.57Annual0.00780.00670.00630.00750.00530.00780.00820.00843.304.674.115.203.665.352.795.50Non-Annual-0.0138-0.0120-0.0092-0.0113-0.0108-0.0109-0.0065-0.0157-4.83-4.53-4.79-4.14-5.58-4.00-1.67-5.13Years 6-10All-0.0043-0.0042-0.0039-0.0048-0.0049-0.0041-0.0044-0.0044-1.91-2.84-2.45-3.53-3.14-3.05-1.29-2.77Annual0.00740.00620.00660.00620.00570.0065-0.00130.00793.204.564.394.593.994.69-0.395.53Non-Annual-0.0057-0.0055-0.0059-0.0065-0.0057-0.0065-0.0042-0.0071-2.55-3.59-3.73-4.74-3.64-4.81-1.26-4.18Years 11-15All-0.00130.0005-0.0019-0.0013-0.0018-0.00160.0040-0.0007-0.570.40-1.29-0.98-1.26-1.281.01-0.49Annual0.00850.00540.00370.00510.00150.00570.00240.00733.923.952.383.920.994.370.634.12Non-Annual-0.0026-0.0018-0.0026-0.0026-0.0029-0.00300.0040-0.0018-1.18-1.34-1.79-1.87-1.86-2.291.01-1.27Years 16-20All0.0031-0.00280.0005-0.00140.0006-0.0019-0.0104-0.00191.22-2.030.30-1.010.39-1.36-2.65-1.08Annual0.00580.00450.00360.00450.00590.00460.00830.00422.083.092.163.293.553.311.862.87Non-Annual-0.0005-0.0037-0.0015-0.0028-0.0015-0.0022-0.0092-0.0030-0.18-2.58-0.92-2.05-0.94-1.65-2.25-1.90
+Year 1	All
+0.0219
+0.0122
+0.0125
+0.0137
+0.0083
+0.0152
+0.0093
+0.0143
+
+
+6.15
+4.20
+4.91
+4.62
+3.25
+5.14
+2.20
+4.61
+
+Annual
+0.0106
+0.0127
+0.0094
+0.0122
+0.0083
+0.0125
+0.0073
+0.0145
+
+
+4.25
+7.13
+6.02
+7.17
+4.93
+7.22
+2.24
+7.49
+
+Non-Annual
+0.0191
+0.0091
+0.0107
+0.0107
+0.0064
+0.0124
+0.0080
+0.0110
+
+
+5.34
+2.91
+4.23
+3.37
+2.48
+4.00
+1.79
+3.37
+Years 2-5
+All
+-0.0124
+-0.0097
+-0.0078
+-0.0085
+-0.0083
+-0.0081
+-0.0021
+-0.0133
+
+
+-4.27
+-3.84
+-4.08
+-3.26
+-4.43
+-3.15
+-0.56
+-4.57
+
+Annual
+0.0078
+0.0067
+0.0063
+0.0075
+0.0053
+0.0078
+0.0082
+0.0084
+
+
+3.30
+4.67
+4.11
+5.20
+3.66
+5.35
+2.79
+5.50
+
+Non-Annual
+-0.0138
+-0.0120
+-0.0092
+-0.0113
+-0.0108
+-0.0109
+-0.0065
+-0.0157
+
+
+-4.83
+-4.53
+-4.79
+-4.14
+-5.58
+-4.00
+-1.67
+-5.13
+Years 6-10
+All
+-0.0043
+-0.0042
+-0.0039
+-0.0048
+-0.0049
+-0.0041
+-0.0044
+-0.0044
+
+
+-1.91
+-2.84
+-2.45
+-3.53
+-3.14
+-3.05
+-1.29
+-2.77
+
+Annual
+0.0074
+0.0062
+0.0066
+0.0062
+0.0057
+0.0065
+-0.0013
+0.0079
+
+
+3.20
+4.56
+4.39
+4.59
+3.99
+4.69
+-0.39
+5.53
+
+Non-Annual
+-0.0057
+-0.0055
+-0.0059
+-0.0065
+-0.0057
+-0.0065
+-0.0042
+-0.0071
+
+
+-2.55
+-3.59
+-3.73
+-4.74
+-3.64
+-4.81
+-1.26
+-4.18
+Years 11-15
+All
+-0.0013
+0.0005
+-0.0019
+-0.0013
+-0.0018
+-0.0016
+0.0040
+-0.0007
+
+
+-0.57
+0.40
+-1.29
+-0.98
+-1.26
+-1.28
+1.01
+-0.49
+
+Annual
+0.0085
+0.0054
+0.0037
+0.0051
+0.0015
+0.0057
+0.0024
+0.0073
+
+
+3.92
+3.95
+2.38
+3.92
+0.99
+4.37
+0.63
+4.12
+
+Non-Annual
+-0.0026
+-0.0018
+-0.0026
+-0.0026
+-0.0029
+-0.0030
+0.0040
+-0.0018
+
+
+-1.18
+-1.34
+-1.79
+-1.87
+-1.86
+-2.29
+1.01
+-1.27
+Years 16-20
+All
+0.0031
+-0.0028
+0.0005
+-0.0014
+0.0006
+-0.0019
+-0.0104
+-0.0019
+
+
+1.22
+-2.03
+0.30
+-1.01
+0.39
+-1.36
+-2.65
+-1.08
+
+Annual
+0.0058
+0.0045
+0.0036
+0.0045
+0.0059
+0.0046
+0.0083
+0.0042
+
+
+2.08
+3.09
+2.16
+3.29
+3.55
+3.31
+1.86
+2.87
+
+Non-Annual
+-0.0005
+-0.0037
+-0.0015
+-0.0028
+-0.0015
+-0.0022
+-0.0092
+-0.0030
+
+
+-0.18
+-2.58
+-0.92
+-2.05
+-0.94
+-1.65
+-2.25
+-1.90
+
  
  
  
